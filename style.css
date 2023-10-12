@@ -1,0 +1,122 @@
+.container {
+    /* max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; */
+    position: relative;
+    width: 396px;
+    display: flex;
+    align-items: flex-start;
+    left: 800px;
+    top: 150px;
+    height: 349.83px;
+    border-radius: 4%;
+    background-color: #ffffff;
+  }
+   #email { 
+   font-size: 17px;
+ margin-top: 20px;
+ margin-left: 10px;
+   padding: 16px 19px;
+   width: 330px;
+   font-family: inherit;
+   border-radius: 6px;
+/* border: none; */
+border: 1px solid #dddfe2;
+  }
+ 
+  #password{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 14px 16px;
+    width: 336px;
+    font-family: inherit;
+    border-radius: 6px;
+ /* border-style: none; */
+ border: 1px solid #dddfe2;
+
+  }
+  #submitBtn{
+    background-color: #1877f2;
+    margin-top: 6px;
+      border: none;
+      border-radius: 6px;
+      font-size: 30px;
+      font: 20px Helvetica, Arial, sans-serif;
+      line-height: 48px;
+      padding: 0 16px;
+      width:364px;
+      /* height: 48px; */
+      color: #ffffff;
+      text-decoration: none;
+  }
+  #submitBttn{
+    background-color: #42b72a;
+border: none;
+    color: #ffffff;
+    margin-top: 6px;
+    width: 192.61px;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+  }
+  #message{
+    color: rgb(196, 80, 35);
+    position: absolute;
+    top: 200px;
+    left: 40px;
+  }
+  body{
+    background-color:#f0f2f5 ;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+   .leftpara h1{
+    position: absolute;
+    font-family: sans-serif;
+    top: 200px;
+    left: 200px;
+    font-size: 70px;
+    color:#0866ff ;
+  }
+   .leftpara h4{
+    font-size: 24px;
+    display: flex;
+    position: absolute;
+    top: 320px; 
+    left: 200px;
+    line-height: 28px;
+     width: auto; 
+     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+   color:  #1c1e5f;
+  } 
